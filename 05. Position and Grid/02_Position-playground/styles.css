@@ -1,0 +1,47 @@
+@import "https://use.fontawesome.com/releases/v5.6.3/css/all.css";
+
+.viewport {
+  height: 50vh;
+  position: relative;
+}
+
+.first {
+  background: linear-gradient(42deg, #3074b5 10%, #598fdb 30%, #57ab89 90%);
+}
+
+.card img {
+  display: block;
+  width: 250px;
+  border-radius: inherit;
+}
+
+.second {
+  background: linear-gradient(42deg, #c72eca 5%, #e36400 70%, #bfb92b 90%);
+}
+
+.card {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+}
+
+.card-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  box-shadow: inset #000 0px 0px 5px;
+  border-radius: inherit;
+}
+
+.icon {
+  color: white;
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+}
