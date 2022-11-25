@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  margin: 0;
+
+  flex-wrap: wrap;
+  align-content: space-between;
+  background-color: rgb(238, 238, 238);
+  height: 100vh;
+  font-family: Helvetica, sans-serif;
+}
+
+footer {
+  color: rgb(255, 255, 255);
+  background-color: rgb(102, 102, 102);
+}
+
+h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+main {
+  align-self: flex-start;
+  padding: 10px;
+}
+
+header {
+  height: 100px;
+  flex-basis: 100%;
+  border-bottom-width: 2px;
+  border-bottom-color: rgb(0, 0, 0);
+  border-bottom-style: solid;
+
+}
+
+footer {
+  flex-basis: 100%;
+}
+
+footer p {
+  padding-top: 5px;
+  padding-left: 5px;
+  margin: auto;
+  height: 50px;
+  padding-bottom: 0;
+}

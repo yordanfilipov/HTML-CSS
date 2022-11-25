@@ -1,0 +1,23 @@
+body {
+  box-sizing: border-box;
+  background-color: #EEEEEE;
+  display: flex;
+}
+
+ul {
+  flex-wrap: wrap;
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  -webkit-box-shadow: 0 0 20px black;
+  box-shadow: 0 0 10px black;
+  max-width: 300px;
+  padding: 10px;
+  border: 10px solid black;
+  display: flex;
+  align-items: center;
+
+}

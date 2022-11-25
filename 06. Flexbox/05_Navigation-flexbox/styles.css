@@ -1,0 +1,21 @@
+header {
+  border-bottom: 2px solid rgb(0, 0, 0);
+
+  display: flex;
+}
+
+header nav ul {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  align-items: center;
+}
+
+header h1 {
+  flex-basis: 80%;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 153, 0);
+}
